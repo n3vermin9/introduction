@@ -48,7 +48,7 @@ let array = [  'UNKNOWN - UNREG.',
       container.appendChild(newLine);
       bottomLine.textContent = randomLine;
       newLine.style.paddingLeft = `${getRandomPadding()}vh`;
-      if (container.children.length > 46) {
+      if (container.children.length > 66) {
         container.removeChild(container.children[0]);
       }
     }, 130); 
