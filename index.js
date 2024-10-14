@@ -51,5 +51,5 @@ let array = [  'UNKNOWN - UNREG.',
       if (container.children.length > 46) {
         container.removeChild(container.children[0]);
       }
-    }, 100); 
+    }, 130); 
   }, 3000);
